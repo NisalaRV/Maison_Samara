@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -108,7 +107,7 @@ header .navlink span {
     display: none;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:425px) {
     header ul {
         position: absolute;
         top: 100px;
@@ -365,3 +364,75 @@ input {
 }
 
 /*------------rooms--------------*/
+/*------------gallery--------------*/
+.gallery {
+    position: relative;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .img {
+    position: relative;
+}
+
+.gallery .img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(126, 193, 65, 0.86);
+    width: 255px;
+    height: 320px;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.overlay {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    z-index: 3;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.gallery span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.overlay h3 {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.gallery .items:hover .overlay,
+.gallery .items:hover .img::after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.gallery .owl-nav .owl-prev {
+    left: 85%;
+}
+
+.gallery .owl-nav .owl-next {
+    right: 5%;
+}
+
+.gallery .owl-nav .owl-prev,
+.gallery .owl-nav .owl-next {
+    top: -40%;
+}
+
+/*------------gallery--------------*/

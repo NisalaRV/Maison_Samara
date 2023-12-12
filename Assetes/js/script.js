@@ -8,6 +8,28 @@ function menutoggle() {
         menulist.style.maxHeight = '0px';
     }
 }
+/*--Gallery---*/
+$('.owl-carousel1').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    navText: [" <i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 4
+        },
+        1000: {
+            items: 6
+        }
+    }
+})
 /*--rooms---*/
 $('.owl-carouse').owlCarousel({
     loop: true,
