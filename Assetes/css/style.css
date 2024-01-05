@@ -562,3 +562,53 @@ display: none;
 }
 
 /*------------customer--------------*/
+
+/*------------footer--------------*/
+footer {
+    background: #282834;
+    color: #B6B7B9;
+    padding: 10% 0 5% 0;
+}
+
+footer .grid {
+    grid-template-columns: 6fr 3fr 3fr;
+}
+
+footer p {
+    color: #B6B7B9;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer .icon i {
+    margin: 20px 20px 20px 0;
+    color: #B6B7B9;
+}
+
+footer h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer li {
+    margin-bottom: 20px;
+}
+
+footer i {
+    color: #7FC142;
+    margin: 20px 0;
+    margin-right: 20px;
+}
+
+footer label {
+    margin: 20px 0;
+}
+
+.legal {
+    padding: 15px 0;
+    background: #282834;
+    color: #B6B7B9;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*------------footer--------------*/
