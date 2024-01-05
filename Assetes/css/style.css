@@ -493,3 +493,72 @@ input {
 }
 
 /*------------service--------------*/
+/*------------customer--------------*/
+.customer {
+    background-image: url("../images/villanight.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.customer .container {
+    max-width: 70%;
+}
+
+.customer .items {
+    padding: 10% 0;
+}
+
+.customer i {
+    width: 50px;
+    height: 50px;
+    line-height: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+.customer p {
+    line-height: 30px;
+}
+
+.customer h3 {
+    margin-top: 20px;
+    color: #7FC142;
+}
+
+.owl-nav{
+display: none;
+}
+
+.customer span {
+    font-size: 15px;
+}
+
+.owl-carousel2 .owl-dots {
+    position: absolute;
+    bottom: 70px;
+    left: 46.6%;
+}
+
+.owl-carousel2 .owl-dots i {
+    color: #7FC142;
+}
+.owl-carousel2 .owl-dots i:hover button {
+    color: #7FC142 !important;
+}
+
+.owl-carousel2 span {
+    border: 2px solid #fff;
+    background: transparent !important;
+}
+
+.owl-carousel2 .active span {
+    background: #7FC142 !important;
+    border: 2px solid #7FC142;
+}
+
+/*------------customer--------------*/
